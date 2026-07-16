@@ -57,7 +57,7 @@ nav ul li a{
     font-weight: 200;
     padding: 2% 0 30%;
 }
-.speakers h2{
+.sec-title{
     padding: 5%;
     font-size: 50px;
     text-align: center;
@@ -97,4 +97,48 @@ nav ul li a{
 }
 .title{
     color: #575757;
+}
+.sub-heading{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 18px;
+}
+.offers{
+    padding: 3em 0;
+}
+.offer-card{
+    padding: 3%;
+    border: 1px solid #575757;
+    width: 33%;
+    border-radius: 20px;
+}
+.offer-card h3{
+    color: #575757;
+    font-weight: 400;
+}
+.offer-card p{
+    color: #000;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.offer-card h4{
+    color: #575757;
+}
+.offer-card ul{
+    padding: 3em 1em;
+}
+.offer-card ul li{
+    font-size: 18px;
+    color: #575757;
+    padding: 1%;
+    list-style-image: linear-gradient(blue);
+}
+.pricing-btn{
+    background-color: #1D4ED8;
+    color: #fff;
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
