@@ -105,6 +105,8 @@ nav ul li a{
 }
 .offers{
     padding: 3em 0;
+    display: flex;
+    gap: 1em;
 }
 .offer-card{
     padding: 3%;
@@ -141,4 +143,41 @@ nav ul li a{
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+}
+.highlight{
+    background-color: #0D1B2A;
+}
+.highlight p{
+    color: #fff;
+}
+.highlight h3{
+    color: #93C5FD;
+}
+.highlight ul li{
+    color: #fff;
+}
+.btn2{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+.btn2:hover{
+    color: #1D4ED8;
+    border:  1px solid #1D4ED8;
+}
+footer{
+    background-color: #0D1B2A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div{
+    width: 50%;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1em;
 }
